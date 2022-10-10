@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En la seccion Tienda de No-GRAVITY encotraras toda la indumentaria para realizar ejercicios, ademas de elementos como pesas y elasticos para realizar los ejercicios">
+    <meta name="keywords" content="Indumentaria, Remeras, Musculosas, Calistenia, Biceps, Press Militar, Running, Deporte, Fitness, Salud, ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../../css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+    <title>NO GRAVITY - Tienda - Indumentaria</title>
+</head>
+<body>
+    <header class="Encabezado">
+        <h1 class="Encabezado__Nombre">NO GRAVITY</h1>
+    </header>
+    <nav class="Barra navbar navbar-expand-lg">
+        <div class="Barra__Contenido container-fluid">
+            <button class="Barra__Contenido--Boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="Barra__Contenido--Opciones collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="Opciones navbar-nav me-auto mb-lg-0" aria-hidden="true"></i>
+                    <li class="Opciones__Bordes nav-item">
+                        <a class="nav-link active" aria-current="page" href="../../../../index.html">Home</a>
+                    </li>
+                    <li class="Item__Bordes nav-item">
+                        <a class="nav-link" href="../../../empresa.html">Nosotros</a>
+                    </li>
+                    <li class="Item__Bordes nav-item">
+                        <a class="nav-link" href="../../../ejercicios.html">Ejercicios</a>
+                    </li>
+                    <li class="Item__Bordes nav-item">
+                        <a class="nav-link" href="../../../productos.html">Tienda</a>
+                    </li>
+                    <li class="Item__Bordes nav-item">
+                        <a class="nav-link" href="../../../nutricion.html">Nutricion</a>
+                    </li>
+                    <li class="Item__Bordes nav-item">
+                        <a class="nav-link" href="../../../acceso.html">Acceso</a>
+                    </li>              
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="Posicion" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../../../../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="../../../productos.html">Tienda</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Indumentaria</li>
+        </ol>
+    </nav>
+    <div class="Tienda">
+        <aside class="Tienda__Filtro navbar navbar-expand-lg bg-light d-block">
+            <div class="Tienda__Filtro--Contenido container-fluid">
+               <button class="Boton navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedaside" aria-controls="navbarSupportedaside" aria-expanded="false" aria-label="Toggle navigation">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" fill="currentColor" class="bi bi-filter-left" viewBox="0 0 14 14">
+                        <path d="M2 10.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                    <div class="Opciones collapse navbar-collapse jc-center" id="navbarSupportedaside">
+                        <div class="Opciones__Item navbar-nav  col-md-4 me-auto mb-2 mb-lg-0 d-block" aria-hidden="true"></i>
+                            <h6 class="text-uppercase font-weight-bold mb-3 mt-3">MARCA</h6>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-1">
+                                    <label for="category-1">Sonnos</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-2">
+                                    <label for="category-2">Power</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-3">
+                                    <label for="category-3">W. Protein</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-4">
+                                    <label for="category-4">G. Marc</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-5">
+                                    <label for="category-5">Adidas</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-6">
+                                    <label for="category-6">Power-Lift</label>
+                                </div>
+                            </div>
+                            <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                            <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">PRECIO</h6>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div>
+                                    <input type="checkbox" class="custom-control-input" id="filter-size-1">
+                                    <label for="filter-size-1"> Hasta $1.500</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div>
+                                    <input type="checkbox" class="custom-control-input" id="filter-size-2">
+                                    <label for="filter-size-2">Hasta $5.000</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div>
+                                    <input type="checkbox" class="custom-control-input" id="filter-size-3">
+                                    <label for="filter-size-3">Hasta $9.000</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="filter-size-4">
+                                    <label for="filter-size-4">Mas de $9.000</label>
+                                </div>
+                            </div>
+                            <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                            <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">FINANCIACION</h6>
+                    
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-4">
+                                    <label for="category-4">3 cuotas</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-5">
+                                    <label for="category-5">6 cuotas</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-6">
+                                    <label for="category-6">12 cuotas</label>
+                                </div>
+                            </div>
+                            <div class="divider mt-2 mb-2 border-bottom border-secondary"></div>
+                            <h6 class="text-uppercase mt-2 mb-3 font-weight-bold">UBICACION</h6>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-4">
+                                    <label for="category-4">C.a.b.a</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-5">
+                                    <label for="category-5">G.c.b.a</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-6">
+                                    <label for="category-6">Cordoba</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-4">
+                                    <label for="category-4">Santa Fe</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-5">
+                                    <label for="category-5">Entre Rios</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-6">
+                                    <label for="category-6">Corrientes</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-5">
+                                    <label for="category-5">La Pampa</label>
+                                </div>
+                            </div>
+                            <div class="mt-2 mb-2 pl-2">
+                                <div class="">
+                                    <input type="checkbox" class="custom-control-input" id="category-6">
+                                    <label for="category-6">Mendoza</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <main class="Tienda__Principal">
+                <form class="Tienda__Principal--Buscador" action="post">
+                    <input class="Buscador__Campo" type="search" placeholder="Busca aqui tu producto" name="buscar" id="buscar">
+                    <input class="Buscador__Boton" type="submit" value="Buscar">
+                </form>
+                <section class="Tienda__Principal--Seccion"> 
+                    <h2 class="Seccion-Titulo"> INDUMENTARIA </h2>
+
+                    <div class="Seccion-Contenido row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4"> 
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/buzo-adidas.jpg" class="card-img-top" alt="Buzo adidas color gris y logo de color negro">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Buzo Adidas Gris</h3>
+                                </div>
+                                <p class="item-price">$4800.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/calza.jpg" class="card-img-top" alt="Calza color violeta de mujer">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Calza Deportiva</h3>
+                                </div>
+                                <p class="item-price">$5000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/campera-deporte.jpg" class="card-img-top" alt="Campera rompevientos color azul y aguamarina">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Campera Running azul</h3>
+                                </div>
+                                <p class="item-price">$6500.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/campera-rompevientos.jpg" class="card-img-top" alt="Campera deportiva color blanco con rojo">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Campera Deportiva Blanca</h3>
+                                </div>
+                                <p class="item-price">$7000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/campera.jpg" class="card-img-top" alt="canguro gris marca umbro">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Buzo Canguro Gris</h3>
+                                </div>
+                                <p class="item-price">$5300.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/canguro-gris.jpg" class="card-img-top" alt="canguro gris de mujer sin capucha">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Buzo Canguro Gris Mujer</h3>
+                                </div>
+                                <p class="item-price">$5900.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/conjunto-top.jpg" class="card-img-top" alt="conjunto color bordo con top libre">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Conjunto Mujer</h3>
+                                </div>
+                                <p class="item-price">$8000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/conjunto-workout.jpg" class="card-img-top" alt="conjunto workout con pantalon short y remera azul">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Conjunto Workout</h3>
+                                </div>
+                                <p class="item-price">$7200.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/conjunto.jpg" class="card-img-top" alt="conjunto rompeviento color negro de mujer">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Conjunto Rompeviento</h3>
+                                </div>
+                                <p class="item-price">$8000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/conjuntos.jpg" class="card-img-top" alt="Conjunto de color gris mujer">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Conjunto Gris Mujer</h3>
+                                </div>
+                                <p class="item-price">$7600.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/joggin-full.jpg" class="card-img-top" class=" Pantalon joggins hombre de color azul">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Joggins Azul</h3>
+                                </div>
+                                <p class="item-price">$4000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/joggins-gris.jpg" class="card-img-top" alt="Pantalon joggins hombre de color gris con franja negra">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Joggins Gris Hombre</h3>
+                                </div>
+                                <p class="item-price">$5100.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/medias-compresion-running.jpg" class="card-img-top" alt="Medias de compresion color gris con pupos masajeadores">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Medias Compresion</h3>
+                                </div>
+                                <p class="item-price">$1100.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/medias-compresion.jpg" class="card-img-top" alt="Medias de compresion color azul para running">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Medias Compresion azul</h3>
+                                </div>
+                                <p class="item-price">$950.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/musculosa-punisher.jpg" class="card-img-top" alt="Musculosa de algodon hombre color negro con logo punisher blanco">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Muscolosa Negra Hombre</h3>
+                                </div>
+                                <p class="item-price">$2000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/pantalos-dryfit.jpg" class="card-img-top" alt="Pantalon deportivo hombre dryfit color azul">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Pantalon dryfit</h3>
+                                </div>
+                                <p class="item-price">$6000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/remera-compresion-dryfit.jpg" class="card-img-top" alt="Remera de compresion color gris hombre al cuerpo">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remera Compresion</h3>
+                                </div>
+                                <p class="item-price">$3600.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/remera-de-hombre-montagne.jpg" class="card-img-top" alt="Remera de hombre montagne dryfit color blanca con franja gris">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remera Montagne</h3>
+                                </div>
+                                <p class="item-price">$4000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/remera-dryfit.jpg" class="card-img-top" alt="Remera deportiva dyfit color gris con verde hombre para running">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remera Dryfit Gris</h3>
+                                </div>
+                                <p class="item-price">$2400.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/remera-workout.jpg" class="card-img-top" alt="Remera para workout dryfit warrior color roja">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remera Workout Warrior</h3>
+                                </div>
+                                <p class="item-price">$2700.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/rmera-termica-tech-compresion-diadora-dryfit.jpg" class="card-img-top" alt="Remera de compresion umbro hombre dryfit gris">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Remera Umbro</h3>
+                                </div>
+                                <p class="item-price">$3500.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>                               
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/rompeviento-de-hombre-running-dryfit.jpg" class="card-img-top" alt="Campera rompeviento running color verde claro de mujer">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Campera Running Verde</h3>
+                                </div>
+                                <p class="item-price">$6000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/short-dryfit.jpg" class="card-img-top" alt="Short de mujer corto color rosa dryfit">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Short Mujer Rosa</h3>
+                                </div>
+                                <p class="item-price">$2300.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/short-gym.jpg" class="card-img-top" alt="Short negro workout dryfit hombre">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Short Workout Negro</h3>
+                                </div>
+                                <p class="item-price">$2200.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                        <article class="col">
+                            <div class="card Animacion">
+                                <img src="../../../../img/HOME/INDUMENTARIA/shorts.jpg" class="card-img-top" alt="Short negro hombre running workout">
+                                <div class="card-body">
+                                    <h3 class="card__titulo">Short Negro hombre</h3>
+                                </div>
+                                <p class="item-price">$2000.00</p>
+                                <a href="#" class="btn card__boton">Comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </main>
+        </div>   
+    </main>
+    <footer class="Pie text-center text-lg-start text-white">
+        <div class="Pie__contenido bg-secondary d-flex justify-content-between p-4">
+            <div class="Pie__contenido--redes me-5">
+                <span>Conectate con nosotros en las redes sociales:</span>
+            </div>
+            <div class="Pie__Cotenido--iconos">
+                <a href="https://es-la.facebook.com/" target="_blank" class="text-white me-4"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="text-white me-4"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.google.com/" target="_blank" class="text-white me-4"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="text-white me-4"><i class="fab fa-instagram"></i></a>
+                <a href="https://ar.linkedin.com/" target="_blank" class="text-white me-4"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/" target="_blank" class="text-white me-4"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+        <div class="Pie__contenido container text-center text-md-start mt-5">
+            <div class="Pie__contenido--opciones row mt-3">
+                <div class="Columna col-md-2 col-lg-2 col-xl-2 w-25 mx-auto mb-4">
+                    <h4 class="Columna__Titulo">No gravity</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <img class="Columna__Logo d-block justify-content-center" src="../../../../img/Logo-empresa-3.png" alt="Logo No Gravity">
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="Columna__Titulo text-uppercase fw-bold">Nosotros</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p>
+                        <a href="../../../empresa.html" class="text-white">Empresa</a>
+                    </p>
+                    <p>
+                        <a href="../../../social.html" class="text-white">Social</a>
+                    </p>
+                    <p>
+                        <a href="../../../legal.html" class="text-white">Legal</a>
+                    </p>
+                </div>
+                <div class="Columna col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h4 class="Columna__Titulo">Links Utiles</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p>
+                        <a href="../../../acceso.html" class="text-white">Tu Cuenta</a>
+                    </p>
+                    <p>
+                        <a href="../../../ejercicios.html" class="text-white">Ejercicios</a>
+                    </p>
+                    <p>
+                        <a href="../../../productos.html" class="text-white">Tienda</a>
+                    </p>
+                    <p>
+                        <a href="../../../nutricion.html" class="text-white">Nutricion</a>
+                    </p>
+                </div>
+                <div class="Columna col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <h4 class="Columna__Titulo">Contactanos</h4>
+                    <hr class="Columna__Subrayado d-inline-block mx-auto">
+                    <p><i class="fas fa-home mr-3"></i> CABA, AV Rivadavia 4950, Arg</p>
+                    <p><i class="fas fa-envelope mr-3"></i> Contacto@NoGravity.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> + 11 488 661</p>
+                    <p><i class="fas fa-print mr-3"></i> + 11 488 662</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
